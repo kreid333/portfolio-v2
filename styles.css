@@ -1,0 +1,128 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: black;
+}
+
+h1,
+h3 {
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+button {
+  background: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+  animation-name: btn;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+
+.image {
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+}
+
+.thumbnail {
+  height: 15%;
+  width: 15%;
+  object-fit: contain;
+}
+
+.project-header {
+  box-sizing: border-box;
+  width: 70%;
+  /* border: 1px solid lightgray; */
+  margin: 0 auto;
+}
+
+.page {
+  height: 100vh;
+}
+
+.project-div {
+  margin-bottom: 45px;
+}
+
+.container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.i-margin {
+  margin-bottom: 10px;
+}
+
+#my-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 70%;
+  left: 5px;
+}
+
+#main-page,
+#proficiencies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#name,
+#occupation {
+  font-weight: 900;
+}
+
+#frontend,
+#backend {
+  font-weight: bolder;
+}
+
+/* KEY FRAMES */
+@keyframes btn {
+  0% {
+    background-color: #fff;
+    color: #000;
+  }
+
+  100% {
+    background-color: rgb(30, 30, 30);
+    color: white;
+  }
+}
