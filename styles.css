@@ -94,7 +94,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   position: fixed;
-  top: 70%;
+  top: 68it%;
   left: 5px;
   opacity: 0;
   animation-name: menu;
