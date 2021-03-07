@@ -51,6 +51,10 @@ button:hover {
   animation-fill-mode: forwards;
 }
 
+.modal-link:hover {
+  text-decoration: underline;
+}
+
 .image {
   height: 70%;
   width: 70%;
