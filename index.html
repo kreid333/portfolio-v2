@@ -13,16 +13,27 @@
     <title>Kai Reid</title>
   </head>
   <body>
+    <div id="emailModal" class="modal">
+      <div class="modal-content">
+        <span id="emailCloseBtn" class="closeBtn">&times;</span>
+        <span
+          >Email Address:
+          <a href="mailto:kai.j.reid@gmail.com">kai.j.reid@gmail.com</a></span
+        >
+      </div>
+    </div>
+    <div id="phoneModal" class="modal">
+      <div class="modal-content">
+        <span id="phoneCloseBtn" class="closeBtn">&times;</span>
+        <span>Phone Number: <a href="tel:9125321410">(912) 532-1410</a></span>
+      </div>
+    </div>
     <div id="my-info">
       <a href="./files/Kai Reid Resume.pdf" target="_blank">
         <i class="far fa-file-alt fa-2x i-margin"></i
       ></a>
-      <a href="mailto:kai.j.reid@gmail.com">
-        <i class="far fa-envelope fa-2x i-margin"></i
-      ></a>
-      <a href="tel:9125321410">
-        <i class="fas fa-mobile-alt fa-2x i-margin"></i
-      ></a>
+      <i class="far fa-envelope fa-2x i-margin emailAddress"></i>
+      <i class="fas fa-mobile-alt fa-2x i-margin phoneNumber"></i>
       <a href="https://github.com/kreid333" target="_blank">
         <i class="fab fa-github fa-2x i-margin"></i
       ></a>
@@ -131,9 +142,5 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <script>
-    window.onbeforeunload = function () {
-      window.scrollTo(0, 0);
-    };
-  </script>
+  <script src="./scripts.js"></script>
 </html>
