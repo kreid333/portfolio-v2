@@ -131,8 +131,10 @@ button:hover {
 }
 
 .closeBtn:hover {
-  color: #000;
   cursor: pointer;
+  animation-name: closeBtn;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
 }
 
 #my-info {
@@ -214,5 +216,14 @@ button:hover {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes closeBtn {
+  0% {
+    color: #ccc;
+  }
+  100% {
+    color: #000;
   }
 }
