@@ -173,7 +173,7 @@ button:hover {
 }
 
 #frontend,
-#backend {
+#backend, #other {
   font-weight: bolder;
 }
 
