@@ -26,6 +26,7 @@ From there, the user can scroll through my portfolio to access my projects, what
 ## Credits
 
 * [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
 
 ## License
 
