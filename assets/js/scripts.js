@@ -4,22 +4,22 @@ window.onbeforeunload = function () {
 };
 
 // PHONE MODAL ELEMENT
-const phoneModal = document.getElementById("phoneModal");
+const phoneModal = document.getElementById("phone-modal");
 
 // PHONE MODAL ELEMENT
-const emailModal = document.getElementById("emailModal");
+const emailModal = document.getElementById("email-modal");
 
 // MODAL BUTTON
-const phoneBtn = document.querySelector(".phoneNumber");
+const phoneBtn = document.querySelector(".phone-number");
 
 // MODAL BUTTON
-const emailBtn = document.querySelector(".emailAddress");
+const emailBtn = document.querySelector(".email-address");
 
 // CLOSE BUTTON
-const phoneCloseBtn = document.getElementById("phoneCloseBtn");
+const phoneCloseBtn = document.getElementById("phone-closeBtn");
 
 // CLOSE BUTTON
-const emailCloseBtn = document.getElementById("emailCloseBtn");
+const emailCloseBtn = document.getElementById("email-closeBtn");
 
 // OUTSIDE CLICK ON WINDOW
 window.addEventListener("click", function (e) {
