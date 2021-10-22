@@ -4,16 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="./images/favicon.png" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <title>Kai Reid</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Kai Reid — Full Stack Web Developer</title>
   </head>
   <body>
+    <!-- MODALS -->
     <div id="email-modal" class="modal">
       <div class="modal-content">
         <span id="email-closeBtn" class="close-btn">&times;</span>
@@ -34,32 +32,58 @@
         >
       </div>
     </div>
+
+    <!-- SIDE LINKS -->
     <div id="my-info">
-      <a href="./assets/files/Kai Reid.pdf" target="_blank">
-        <i class="far fa-file-alt fa-2x i-margin"></i
-      ></a>
-      <i class="far fa-envelope fa-2x i-margin email-address"></i>
-      <i class="fas fa-mobile-alt fa-2x i-margin phone-number"></i>
-      <a href="https://github.com/kreid333" target="_blank">
-        <i class="fab fa-github fa-2x i-margin"></i
-      ></a>
-      <a href="https://www.linkedin.com/in/kai-reid/" target="_blank">
-        <i class="fab fa-linkedin fa-2x"></i
-      ></a>
+      <div class="icon">
+        <a href="./assets/files/Kai Reid.pdf" target="_blank">
+          <i class="far fa-file-alt"></i
+        ></a>
+        <span> Resume </span>
+      </div>
+      <div class="icon">
+        <i class="far fa-envelope email-address"></i>
+        <span> Email </span>
+      </div>
+      <div class="icon">
+        <i class="fas fa-mobile-alt phone-number"></i>
+        <span> Phone </span>
+      </div>
+      <div class="icon">
+        <a href="https://github.com/kreid333" target="_blank">
+          <i class="fab fa-github"></i
+        ></a>
+        <span> GitHub </span>
+      </div>
+      <div class="icon">
+        <a href="https://www.linkedin.com/in/kai-reid/" target="_blank">
+          <i class="fab fa-linkedin"></i
+        ></a>
+        <span> LinkedIn </span>
+      </div>
     </div>
+
+    <!-- HERO -->
     <div class="container">
       <div class="page" id="main-page">
         <h1>
-          Hi 👋, My name is <span id="name">Kai Reid</span> and I am a
-          <span id="occupation">Full Stack Web Developer</span> leveraging
-          artistic abilities to create beautiful experiences for web users.
+          Hi 👋, My name is <span id="name">Kai Reid</span><br />and I am a
+          <span id="occupation">Full Stack Web Developer</span><br />
+          leveraging artistic abilities<br />
+          to create beautiful experiences for web users.
         </h1>
       </div>
-      <div id="projects">
-        <h2>Projects</h2>
-        <div class="project-div">
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects">
+      <div class="container text-center">
+        <h2 data-aos="fade-down">Projects</h2>
+        <div class="project" data-aos="fade">
           <div class="project-header"><h3>Bandwich</h3></div>
-          <img class="image" src="./assets/images/1603235287992.png" alt="" />
+          <div class="project-image">
+            <img src="./assets/images/1603235287992.png" alt="" />
+          </div>
           <p>
             A simple 4-track recording interface built with collaboration in
             mind.
@@ -68,54 +92,81 @@
             Created using HTML, CSS, Javascript (jQuery), Node.js, Express.js,
             Handlebars, Recorder.js, MySQL, and Sequelize.
           </p>
-          <a href="https://github.com/kreid333/bandwich" target="_blank">
-            <button>View Code</button>
-          </a>
-          <a href="https://bandwich-app.herokuapp.com/" target="_blank">
-            <button>Live Version</button>
-          </a>
+          <div class="buttons">
+            <a
+              class="button"
+              href="https://github.com/kreid333/bandwich"
+              target="_blank"
+            >
+              <button>View Code</button>
+            </a>
+            <a
+              class="button"
+              href="https://bandwich-app.herokuapp.com/"
+              target="_blank"
+            >
+              <button>Live Version</button>
+            </a>
+          </div>
         </div>
-        <div class="project-div">
+        <div class="project" data-aos="fade">
           <div class="project-header">
             <h3>Liberty County Clinic of Chiropractic</h3>
           </div>
-          <img class="image" src="./assets/images/1618344597190.png" alt="" />
+          <div class="project-image">
+            <img src="./assets/images/1618344597190.png" alt="" />
+          </div>
           <p>A website created for a local chiropractor.</p>
           <p>
             Created using HTML, CSS, Bootstrap, Javascript, Node.js, Express.js,
             Nodemailer, React, MongoDB, and Mongoose.
           </p>
-          <a href="https://github.com/kreid333/chiro" target="_blank">
-            <button>View Code</button>
-          </a>
-          <a href="https://libertyccc.herokuapp.com/" target="_blank">
-            <button>Live Version</button>
-          </a>
+          <div class="buttons">
+            <a
+              class="button"
+              href="https://github.com/kreid333/chiro"
+              target="_blank"
+            >
+              <button>View Code</button>
+            </a>
+            <a
+              class="button"
+              href="https://libertyccc.herokuapp.com/"
+              target="_blank"
+            >
+              <button>Live Version</button>
+            </a>
+          </div>
         </div>
-
-        <div class="project-div">
+        <div class="project" data-aos="fade">
           <div class="project-header"><h3>MyBlog</h3></div>
-          <img class="image" src="./assets/images/1626144121136.png" alt="" />
-          <p>
-            A simple CRUD blogging website.
-          </p>
-          <p>
-            Created using HTML, CSS, PHP, and MySQL.
-          </p>
-          <a href="https://github.com/kreid333/myblog/" target="_blank">
-            <button>View Code</button>
-          </a>
-          <a
-            href="https://kai-myblog.herokuapp.com/"
-            target="_blank"
-          >
-            <button>Live Version</button>
-          </a>
+          <div class="project-image">
+            <img src="./assets/images/1626144121136.png" alt="" />
+          </div>
+          <p>A simple CRUD blogging website.</p>
+          <p>Created using HTML, CSS, PHP, and MySQL.</p>
+          <div class="buttons">
+            <a
+              class="button"
+              href="https://github.com/kreid333/myblog/"
+              target="_blank"
+            >
+              <button>View Code</button>
+            </a>
+            <a
+              class="button"
+              href="https://kai-myblog.herokuapp.com/"
+              target="_blank"
+            >
+              <button>Live Version</button>
+            </a>
+          </div>
         </div>
-
-        <div class="project-div">
+        <div class="project" data-aos="fade">
           <div class="project-header"><h3>Amazon Clone</h3></div>
-          <img class="image" src="./assets/images/1618415506132.png" alt="" />
+          <div class="project-image">
+            <img src="./assets/images/1618415506132.png" alt="" />
+          </div>
           <p>
             A MERN stack clone of Amazon. Includes common functionality of
             eCommerce websites; such as adding items to cart, user
@@ -125,73 +176,98 @@
             Created using HTML, CSS, Javascript, Node.js, Express.js,
             Passport.js, Stripe, React, MongoDB, and Mongoose.
           </p>
-          <a href="https://github.com/kreid333/amazon-clone/" target="_blank">
-            <button>View Code</button>
-          </a>
-          <a
-            href="https://amazon-clone-kreid333.herokuapp.com/"
-            target="_blank"
-          >
-            <button>Live Version</button>
-          </a>
+          <div class="buttons">
+            <a
+              class="button"
+              href="https://github.com/kreid333/amazon-clone/"
+              target="_blank"
+            >
+              <button>View Code</button>
+            </a>
+            <a
+              class="button"
+              href="https://amazon-clone-kreid333.herokuapp.com/"
+              target="_blank"
+            >
+              <button>Live Version</button>
+            </a>
+          </div>
         </div>
-
-        <div class="project-div">
+        <div class="project" data-aos="fade">
           <div class="project-header"><h3>SOTA Window Coverings</h3></div>
-          <img class="image" src="./assets/images/1618343351289.png" alt="" />
+          <div class="project-image">
+            <img src="./assets/images/1618343351289.png" alt="" />
+          </div>
           <p>A website created for a window treatment company.</p>
           <p>
             Created using HTML, CSS, Bootstrap, Javascript, Node.js, Express.js,
             Nodemailer, React, MongoDB, and Mongoose.
           </p>
-          <a href="https://github.com/kreid333/sota-frontend/" target="_blank">
-            <button>View Code</button>
-          </a>
-          <a href="https://www.sotadecor.com/" target="_blank">
-            <button>Live Version</button>
-          </a>
-        </div>
-      </div>
-      <div class="page" id="proficiencies">
-        <h2>Proficiencies</h2>
-        <div>
-          <h3 id="frontend">Frontend</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS/SCSS</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>Bootstrap</li>
-            <li>React</li>
-          </ul>
-        </div>
-        <div>
-          <h3 id="backend">Backend</h3>
-          <ul>
-            <li>PHP</li>
-            <li>MySQL</li>
-            <li>Node.js</li>
-            <li>MongoDB</li>
-            <li>Express</li>
-          </ul>
-        </div>
-        <div>
-          <h3 id="other">Other</h3>
-          <ul>
-            <li>Git</li>
-            <li>Github</li>
-          </ul>
+          <div class="buttons">
+            <a
+              class="button"
+              href="https://github.com/kreid333/sota/"
+              target="_blank"
+            >
+              <button>View Code</button>
+            </a>
+            <a
+              class="button"
+              href="https://sotawindowcoverings.herokuapp.com/"
+              target="_blank"
+            >
+              <button>Live Version</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- PROFICIENCIES -->
+    <div class="page" id="proficiencies" data-aos="fade-down">
+      <h2>Proficiencies</h2>
+      <div>
+        <h3 id="frontend">Frontend</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SASS/SCSS</li>
+          <li>Javascript</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <div>
+        <h3 id="backend">Backend</h3>
+        <ul>
+          <li>PHP</li>
+          <li>MySQL</li>
+          <li>Node.js</li>
+          <li>MongoDB</li>
+          <li>Express</li>
+        </ul>
+      </div>
+      <div>
+        <h3 id="other">Other</h3>
+        <ul>
+          <li>Git</li>
+          <li>Github</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
     <footer>
       <span>&copy; Kai Reid, 2021</span>
     </footer>
+
+    <!-- JAVASCRIPT -->
     <script
       src="https://kit.fontawesome.com/02901889a3.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/scripts.js"></script>
   </body>
-  <script src="./assets/js/scripts.js"></script>
 </html>

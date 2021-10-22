@@ -49,3 +49,6 @@ emailCloseBtn.addEventListener("click", function () {
 phoneCloseBtn.addEventListener("click", function () {
     phoneModal.style.display = "none";
 });
+
+// ANIMATE ON SCROLL LIBRARY
+AOS.init({duration: 1000});
