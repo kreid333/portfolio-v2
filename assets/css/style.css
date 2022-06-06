@@ -40,7 +40,6 @@ h3 {
 
 button {
   background: none;
-  color: black;
   border: 1px solid black;
   border-radius: 5px;
   padding: 10px;
@@ -215,6 +214,7 @@ i.far, i.fas, i.fab {
 }
 
 .button {
+  color: black;
   display: inline-block;
   width: 35%;
   padding: 5px;
