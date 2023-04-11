@@ -16,8 +16,8 @@
       <div class="modal-content">
         <span id="email-closeBtn" class="close-btn">&times;</span>
         <span class="modal-text">Email Address</span>
-        <a class="modal-link" href="mailto:kai.j.reid@gmail.com"
-          >kai.j.reid@gmail.com</a
+        <a class="modal-link" href="mailto:kaireid.tech@gmail.com"
+          >kaireid.tech@gmail.com</a
         >
       </div>
     </div>
@@ -30,7 +30,7 @@
     </div>
 
     <!-- SIDE LINKS -->
-    <div id="my-info">
+    <div class="my-info">
       <div class="icon">
         <a href="./assets/files/Kai Reid.pdf" target="_blank">
           <i class="far fa-file-alt"></i
@@ -59,239 +59,147 @@
       </div>
     </div>
 
-    <!-- HERO -->
     <div class="container">
-      <div class="page" id="main-page">
-        <h1>
-          Hi 👋, My name is <span id="name">Kai Reid</span>.<br />I am a
-          <span id="occupation">Full Stack Web Developer</span><br />
-          leveraging artistic abilities<br />
-          to create beautiful experiences for web users.
-        </h1>
+      <!-- HERO -->
+      <div class="page hero">
+        <h1 class="name">Kai Reid</h1>
+        <img
+          class="portrait"
+          src="./assets/images/Portrait.jpg"
+          alt="Portrait"
+        />
+        <h2 class="occupation">Full Stack Web Developer</h2>
       </div>
-    </div>
 
-    <!-- PROJECTS -->
-    <div id="projects">
-      <div class="container text-center">
+      <!-- PROJECTS -->
+      <div class="page projects">
         <h2 data-aos="fade-down">Projects</h2>
+
         <div class="project" data-aos="fade">
-          <div class="project-header"><h3>SOTA Window Coverings</h3></div>
-          <div class="project-image">
-            <img src="./assets/images/1618343351289.png" alt="" />
+          <h3>TechBubl</h3>
+          <div class="project__image">
+            <img src="./assets/images/TechBubl.png" alt="TechBubl website" />
+          </div>
+          <p>
+            A full-featured blog created using PHP and the MVC architectural
+            pattern.
+          </p>
+          <p>Created using HTML, CSS, SCSS, PHP, Apache, and MySQL.</p>
+          <div class="project__links">
+            <a href="https://github.com/kreid333/techbubl/" target="_blank">
+              View Code
+            </a>
+            <a href="https://techbubl.sndbxx.com/" target="_blank">
+              Live Version
+            </a>
+          </div>
+        </div>
+
+        <div class="project" data-aos="fade">
+          <h3>Fortune 500 API</h3>
+          <div class="project__image">
+            <img
+              src="./assets/images/Fortune500API.png"
+              alt="Fortune 500 API website"
+            />
+          </div>
+          <p>
+            An easy to use, public API that provides data on Fortune 500
+            companies. Created using OOP concepts.
+          </p>
+          <p>Created using HTML, CSS, PHP, Apache, and MySQL.</p>
+          <div class="project__links">
+            <a href="https://github.com/kreid333/techbubl/" target="_blank">
+              View Code
+            </a>
+            <a href="https://techbubl.sndbxx.com/" target="_blank">
+              Live Version
+            </a>
+          </div>
+        </div>
+
+        <div class="project" data-aos="fade">
+          <h3>SOTA Window Coverings</h3>
+          <div class="project__image">
+            <img
+              src="./assets/images/SOTA DECOR.png"
+              alt="SOTA Window Coverings website"
+            />
           </div>
           <p>A website created for a window treatment company.</p>
           <p>
-            Created using HTML, CSS, Bootstrap, Javascript, Node.js, Express.js,
-            Nodemailer, React, MongoDB, and Mongoose.
+            Created using HTML, CSS, Bootstrap, Javascript, Google Maps API, and
+            Gatsby.
           </p>
-          <div class="buttons">
-            <a
-              class="button"
-              href="https://github.com/kreid333/sota/"
-              target="_blank"
-            >
-              <button>View Code</button>
+          <div class="project__links">
+            <a href="https://github.com/acrenmedia/sotadecor/" target="_blank">
+              View Code
             </a>
-            <a class="button" href="https://sotadecor.com/" target="_blank">
-              <button>Live Version</button>
-            </a>
+            <a href="https://sotadecor.com/" target="_blank"> Live Version </a>
           </div>
         </div>
+
         <div class="project" data-aos="fade">
-          <div class="project-header"><h3>Bakkup</h3></div>
-          <div class="project-image">
-            <img src="./assets/images/1634502888906.png" alt="" />
-          </div>
-          <p>
-            A responsive landing page for a fictitious cloud service provider.
-          </p>
-          <p>Created using HTML and CSS.</p>
-          <div class="buttons">
-            <a
-              class="button"
-              href="https://github.com/kreid333/bakkup"
-              target="_blank"
-            >
-              <button>View Code</button>
-            </a>
-            <a
-              class="button"
-              href="https://kreid333.github.io/bakkup/"
-              target="_blank"
-            >
-              <button>Live Version</button>
-            </a>
-          </div>
-        </div>
-        <div class="project" data-aos="fade">
-          <div class="project-header">
-            <h3>CoachGuru</h3>
-          </div>
-          <div class="project-image">
-            <img src="./assets/images/1634325900387.png" alt="" />
+          <h3>CoachGuru</h3>
+          <div class="project__image">
+            <img src="./assets/images/CoachGuru.png" alt="Coach Guru" />
           </div>
           <p>
             A responsive landing page for a fictitious life coaching company.
           </p>
           <p>Created using HTML and CSS.</p>
-          <div class="buttons">
-            <a
-              class="button"
-              href="https://github.com/kreid333/coach-guru"
-              target="_blank"
-            >
-              <button>View Code</button>
+          <div class="project__links">
+            <a href="https://github.com/kreid333/coach-guru" target="_blank">
+              View Code
             </a>
-            <a
-              class="button"
-              href="https://kreid333.github.io/coach-guru/"
-              target="_blank"
-            >
-              <button>Live Version</button>
-            </a>
-          </div>
-        </div>
-        <div class="project" data-aos="fade">
-          <div class="project-header"><h3>Izotope Newsletter Email</h3></div>
-          <div class="project-image">
-            <img src="./assets/images/1634066388677.png" alt="" />
-          </div>
-          <p>A newsletter email from Izotope.</p>
-          <p>Created using HTML, CSS, SCSS, and Foundation for Emails.</p>
-          <div class="buttons">
-            <a
-              class="button"
-              href="https://github.com/kreid333/izotope-email/"
-              target="_blank"
-            >
-              <button>View Code</button>
-            </a>
-            <a
-              class="button"
-              href="https://izotope-email.netlify.app/"
-              target="_blank"
-            >
-              <button>Live Version</button>
-            </a>
-          </div>
-        </div>
-        <div class="project" data-aos="fade">
-          <div class="project-header">
-            <h3>SaksOff5th Transactional Email</h3>
-          </div>
-          <div class="project-image">
-            <img src="./assets/images/1634935655708.png" alt="" />
-          </div>
-          <p>A transactional email from Saks Fifth Avenue.</p>
-          <p>Created using HTML (tables) and CSS.</p>
-          <div class="buttons">
-            <a
-              class="button"
-              href="https://github.com/kreid333/saks-email"
-              target="_blank"
-            >
-              <button>View Code</button>
-            </a>
-            <a
-              class="button"
-              href="https://kreid333.github.io/saks-email/"
-              target="_blank"
-            >
-              <button>Live Version</button>
-            </a>
-          </div>
-        </div>
-        <div class="project" data-aos="fade">
-          <div class="project-header"><h3>Lululemon Welcome Email</h3></div>
-          <div class="project-image">
-            <img src="./assets/images/1634935652428.png" alt="" />
-          </div>
-          <p>A welcome email from Lululemon.</p>
-          <p>Created using HTML (tables) and CSS.</p>
-          <div class="buttons">
-            <a
-              class="button"
-              href="https://github.com/kreid333/lululemon-email"
-              target="_blank"
-            >
-              <button>View Code</button>
-            </a>
-            <a
-              class="button"
-              href="https://kreid333.github.io/lululemon-email/"
-              target="_blank"
-            >
-              <button>Live Version</button>
-            </a>
-          </div>
-        </div>
-        <div class="project" data-aos="fade">
-          <div class="project-header"><h3>MyBlog</h3></div>
-          <div class="project-image">
-            <img src="./assets/images/1626144121136.png" alt="" />
-          </div>
-          <p>A CRUD blogging website.</p>
-          <p>Created using HTML, CSS, PHP, and MySQL.</p>
-          <div class="buttons">
-            <a
-              class="button"
-              href="https://github.com/kreid333/myblog/"
-              target="_blank"
-            >
-              <button>View Code</button>
-            </a>
-            <a
-              class="button"
-              href="https://kai-myblog.herokuapp.com/"
-              target="_blank"
-            >
-              <button>Live Version</button>
+            <a href="https://coachguru.sndbxx.com/" target="_blank">
+              Live Version
             </a>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- PROFICIENCIES -->
-    <div class="page text-center" id="proficiencies">
-      <h2 data-aos="fade-down">Proficiencies</h2>
-      <div data-aos="fade">
-        <h3 id="frontend">Frontend</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>SASS/SCSS</li>
-          <li>Javascript</li>
-          <li>jQuery</li>
-          <li>Bootstrap</li>
-          <li>React</li>
-          <li>Foundation for Emails</li>
-        </ul>
-      </div>
-      <div data-aos="fade">
-        <h3 id="backend">Backend</h3>
-        <ul>
-          <li>PHP</li>
-          <li>MySQL</li>
-          <li>Node.js</li>
-          <li>MongoDB</li>
-          <li>Express</li>
-        </ul>
-      </div>
-      <div data-aos="fade">
-        <h3 id="other">Other</h3>
-        <ul>
-          <li>Git</li>
-          <li>Github</li>
-          <li>Litmus</li>
-        </ul>
+      <!-- PROFICIENCIES -->
+      <div class="page proficiencies">
+        <h2 data-aos="fade-down">Proficiencies</h2>
+        <div data-aos="fade">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SASS/SCSS</li>
+            <li>Javascript</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>React</li>
+            <li>Gatsby</li>
+          </ul>
+        </div>
+        <div data-aos="fade">
+          <h3>Backend</h3>
+          <ul>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Apache</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+          </ul>
+        </div>
+        <div data-aos="fade">
+          <h3>Other</h3>
+          <ul>
+            <li>Command Line</li>
+            <li>Git</li>
+            <li>Github</li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <!-- FOOTER -->
     <footer>
-      <span>&copy; Kai Reid, 2022</span>
+      <span>&copy; Kai Reid, 2023</span>
     </footer>
 
     <!-- JAVASCRIPT -->
