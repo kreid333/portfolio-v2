@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -15,7 +15,8 @@ a {
   text-decoration: none;
 }
 
-p, li {
+p,
+li {
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
@@ -134,16 +135,23 @@ footer {
   color: #000;
 }
 
-i.far, i.fas, i.fab {
+i.far,
+i.fas,
+i.fab {
   font-size: clamp(1.875rem, 4vw, 3rem);
 }
 
-/* PORTRAIT */
+/* HERO */
+.name,
+.occupation {
+  margin: 10px 0;
+  font-weight: 600;
+}
+
 .portrait {
   max-width: 500px;
   width: 100%;
 }
-
 
 /* PROJECTS */
 .projects {
@@ -151,6 +159,11 @@ i.far, i.fas, i.fab {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.projects h2 {
+  margin: 10px;
+  text-decoration: underline;
 }
 
 .project {
@@ -198,6 +211,11 @@ i.far, i.fas, i.fab {
 }
 
 /* PROFICIENCIES */
+.proficiencies h2 {
+  margin: 10px;
+  text-decoration: underline;
+}
+
 .proficiencies h3 {
   font-weight: 500;
 }
@@ -220,13 +238,6 @@ i.far, i.fas, i.fab {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-}
-
-/* GROUPED STYLES */
-.name,
-.occupation {
-  margin: 10px 0;
-  font-weight: 600;
 }
 
 /* MEDIA QUERIES */
